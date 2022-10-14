@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Form | HTML</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <a href="index.html"><button>Home</button></a>
+                <a href="forms.html"><button>Form</button></a>
+                <a href="websites.html"><button>Websites</button></a>
+                <a href="images.html"><button>Images</button></a>
+            </nav>
+            
+            <form action="forms.html" method="post">
+                <fieldset>
+                    <legend>Sample Form</legend>
+                    
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input id="name" type="text" name="name">
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input id="email" type="text" name="email">
+                    </div>
+                    
+                    <br>
+                    
+                    <div>
+                        <label for="optionOne">What is the most important part for a computer?</label><br>
+                        <input id="optionOne" type="checkbox" name="optionOne">
+                        <label for="optionOne">CPU</label>
+                        <input id="optionTwo" type="checkbox" name="optionTwo">
+                        <label for="optionTwo">GPU</label>
+                        <input id="optionThree" type="checkbox" name="optionThree">
+                        <label for="optionThree">RAM</label>
+                    </div>
+                    
+                    <br>
+                    
+                    <div>
+                        <label for="textarea">What is your dream computers specifications?</label><br>
+                        <textarea id="textarea" maxlength="250"></textarea>
+                    </div>
+                    
+                    <input type="submit" name="submit" value="Submit">
+                    
+                </fieldset>
+                
+            </div>
+            
+        </form>
+
+    </body>
+
+</html>
